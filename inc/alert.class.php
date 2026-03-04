@@ -413,6 +413,12 @@ class PluginNewsAlert extends CommonDBTM
         return $this->validateFormInput($input, true);
     }
 
+    public function prepareInputForClone($input) {
+        $input = parent::prepareInputForClone($input);
+        $input['is_active'] = 0;
+        return $input;
+    }
+
     function post_addItem()
     {
         $target = new PluginNewsAlert_Target();
