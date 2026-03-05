@@ -45,6 +45,7 @@
    word-break: normal;
    padding: 5px 15px;
    border: none;
+   text-align: left;
 }
 
 .plugin_news_alert-content ul {
