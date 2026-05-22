@@ -76,7 +76,7 @@ function plugin_version_news() {
       'version'        => PLUGIN_NEWS_VERSION,
       'author'         => "<a href='mailto:contact@teclib.com'>TECLIB'</a>",
       'license'        => "GPLv2+",
-      'homepage'       => 'https://github.com/pluginsGLPI/news',
+      'homepage'       => 'https://github.com/itsmng/news',
       'requirements'   => [
          'glpi' => [
             'min' => PLUGIN_NEWS_MIN_GLPI,
