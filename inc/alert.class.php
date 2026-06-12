@@ -106,6 +106,7 @@ class PluginNewsAlert extends CommonDBTM
             "table" => "glpi_entities",
             "field" => "completename",
             "name" => __("Entity"),
+            "datatype" => "dropdown",
             "massiveaction" => false,
         ];
 
